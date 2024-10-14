@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch</title>
+</head>
+<body>
+    <h1>HELLO WORLD</h1>
+
+<script>
+    // var angka = prompt('masukan angka:');
+
+    // jangan menggunakan === karna ini adalah operator identitas yang membandingkan nilai dan tipe data karna promp memasukan tide data 'STRING'
+    // == operator perbandingan 
+
+        // if( angka == 1) {
+        //     alert('anda memasukan angka 1');
+        // } else if( angka == 2 ) {
+        //     alert('anda memasukan angka 2');
+        // } else {
+        //     alert('angka yang anda masukan salah');
+        // }
+
+    // kode dibawah ini adalah kode SWITCH
+    // casenya harus STRING jika menggunakan PROMPT
+
+        // switch( angka ) {
+        //     case '1' :
+        //         alert('anda memasukan angka 1');
+        //         break;
+        //     case '2' :
+        //         alert('anda memasukan angka 2');
+        //         break;
+        //     case '3' :
+        //         alert('anda memasukan angka 3');
+        //         break;
+        //     default :
+        //         alert('angka yang anda masukan salah');
+        //         break;
+        // }
+    
+    // kode dibawah ini adalah kasus yang berbeda
+
+    // var item = prompt('masukan nama makanan / minuman : \n (cth: nasi, daging, susu, hamburger, softdrink)');
+
+    //     switch( item ) {
+    //         case 'nasi' :
+    //             alert('makanan / minuman SEHAT');
+    //             break;
+    //         case 'daging' :
+    //             alert('makanan / minuman SEHAT');
+    //             break;
+    //         case 'susu' :
+    //             alert('makanan / minuman SEHAT');
+    //             break;
+    //         case 'hamburger' :
+    //             alert('makanan / minuman TIDAK SEHAT');
+    //             break;
+    //         case 'softdrink' :
+    //             alert('makanan atau minuman TIDAK SEHAT');
+    //             break;
+    //         default :
+    //             alert('anda memasukan makanan / minuman yang salah!');
+    //             break;
+    //     }
+
+        // kode dibawah nilainya di input oleh program
+
+        // var namaBinatang = 'kuda'
+
+        // switch(namaBinatang) {
+        //     case 'sapi' : 
+        //         alert('moooooooo')
+        //         break;
+        //     case 'ayam' :
+        //         alert('kukuruyukkkk')
+        //         break;
+        //     case 'kucing' :
+        //         alert('miawwwww')
+        //         break;
+        //     default : 
+        //         alert('Yang anda masukan salah')
+        //         break;
+        //     }
+
+    // jika tidak menggunakan BREAK maka setelah case 1 jalan masuk ke alert(case 1) dan langsung menuju case berikutnya jadi akan terjadi 2 alert sekaligus.
+
+        // switch( item ) {
+        //     case 'nasi' :
+        //     case 'daging' :
+        //     case 'susu' :
+        //         alert('makanan / minuman SEHAT');
+        //         break;
+        //     case 'hamburger' :
+        //     case 'softdrink' :
+        //         alert('makanan atau minuman TIDAK SEHAT');
+        //         break;
+        //     default :
+        //         alert('anda memasukan makanan / minuman yang salah!');
+        //         break;
+        // }
+
+    // kode ini adalah untuk kalkulator sederhana
+
+    var nilai1 = parseInt(prompt('Masukan nilai 1'))
+    var nilai2 = parseInt(prompt('Masukan nilai 2'))
+    var operator = prompt('Masukan operator + - * /')
+
+    switch(operator) {
+        case '+' :
+            alert(nilai1 + nilai2)
+            break;
+        case '-' :
+            alert(nilai1 - nilai2)
+            break;
+        case '*' :
+            alert(nilai1 * nilai2)
+            break;
+        case '/' :
+            alert(nilai1 / nilai2)
+            break;
+        default :
+            alert('Yang anda masukan salah!')
+            break;
+    }
+
+
+</script>
+</body>
+</html>

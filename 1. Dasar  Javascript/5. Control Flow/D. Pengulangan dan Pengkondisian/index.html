@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengulangan dan Pengkondisian</title>
+</head>
+<body>
+    <h1>HELLO WORLD</h1>
+
+<script>
+    // cara memunculkan * 5 kali di console
+
+    // 1.
+        // console.log('*****')
+
+    // 2.
+        // for( var i = 0; i < 5; i++ ) {
+        //     console.log('*')
+        // }
+    
+    // 3.
+        // var s = '';
+        //     for( var i = 0; i < 10; i++) {
+        //         s += '*';
+        //         s += '\n';
+        //     }
+        // console.log(s);
+
+    // 4.
+            // var s = '';
+            // for( var i = 0; i < 10; i++) {
+            //     for( var j = 0; j < 5; j++) {
+            //         s += '*';
+            //     }
+            //     s += '\n';
+            // }
+
+    // 5.
+            var s = '';
+            for( var i = 0; i < 10; i++) {
+                for( var j = 0; j <= i; j++) {
+                        s += '*';
+                    }
+                s += '\n';
+                }
+    
+    // 6.
+            // var s = '';
+            //     for( var i = 10; i > 0; i-- ) {
+            //         for( var j = 0; j < i; j++) {
+            //                 s += '*';
+            //             }
+            //         s += '\n';
+            //         }
+
+    console.log(s);
+
+</script>
+</body>
+</html>
