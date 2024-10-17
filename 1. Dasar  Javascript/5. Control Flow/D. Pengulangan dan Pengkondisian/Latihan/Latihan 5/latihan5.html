@@ -13,27 +13,34 @@
 
     for( var i = 1; i <= 10; i++) {
         for( var j = 10; j >= i; j--) {
-            s += ' '
+            s += ' ';
         }
 
-        for( var k = 1; k <= i + (i - 1); k++) {
+    for( var k = 1; k <= i + (i - 1); k++) {
             s += '*'
         }
-        s += '\n'
-    }
 
-    for( var h = 1; h <= 10; h ++) {
-        for( var g = 1; g <= h; g++) {
-            s += ' '
-        }
-    
-    for( var f = 10; f >= (2*h - 10); f--) {
-            s += '*'
-        }
         s += '\n'
+
     }
-      
-    console.log(s)
+console.log(s)
+
+// i = 1 : adalah jumlah bintang di baris pertama
+// s += ' ' : adalah spasi
+// i + (i - 1) :
+//     1 + (1 - 1) = 1
+//     2 + (2 - 1) = 3
+//     3 + (3 - 1) = 5
+//     4 + (4 - 1) = 7
+//     5 + (5 - 1) = 9
+//     6 + (6 - 1) = 11
+//     7 + (7 - 1) = 13
+//     8 + (8 - 1) = 15
+//     9 + (9 - 1) = 17
+//     10 + (10 - 1) = 19
+//  untuk mencetak total bintang pada tiap barisnya
+
+
 </script>
 </body>
 </html>
