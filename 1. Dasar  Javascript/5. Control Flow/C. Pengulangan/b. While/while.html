@@ -36,11 +36,20 @@
 
         // kode dibawah ini untuk menambahkan looping
 
-        var nilaiawal = 1;
-        while(nilaiawal <= 10) {
-            console.log( 'Hello World ' + nilaiawal + 'x');
-        nilaiawal++;
+        // var nilaiawal = 1;
+        // while(nilaiawal <= 10) {
+        //     console.log( 'Hello World ' + nilaiawal + 'x');
+        // nilaiawal++;
+        // }
+
+        // memberhentikan looping menggunakan break (berfungsi untuk for juga)
+
+        let input = 'Hei say something!'
+        while (true) {
+            input = prompt(input);
+            if (input.toLowerCase() === 'stop') break;
         }
+        alert('ok')
 
     </script>
 </body>
