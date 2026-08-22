@@ -43,7 +43,7 @@ function tambah4(g,h) {
 
 var g = parseInt(prompt('Masukan nilai 1 :'));
 var h = parseInt(prompt('Masukan nilai 2 :'));
-var hasil4 = tambah4(g + 2,h + 2);
+var hasil4 = tambah4;
 console.log(hasil4);
 
 // 4. bisa argumentnya berupa function

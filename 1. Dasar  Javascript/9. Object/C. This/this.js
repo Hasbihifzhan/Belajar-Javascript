@@ -33,3 +33,14 @@
     // }
     // new Halo();
     // this mengembalikan object yang baru di buat (new)
+
+// contoh lain
+    const saya = {
+    nama: 'Hasbi',
+    hobi: 'Membaca buku',
+    kenalan: function () {
+        return `Hi, saya ${this.nama}. Hobi saya ${this.hobi}.`;
+    },
+};
+
+saya.kenalan()
