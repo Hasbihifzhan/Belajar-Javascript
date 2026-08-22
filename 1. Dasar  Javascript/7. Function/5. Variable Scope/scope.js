@@ -111,3 +111,14 @@
     tes(g);
     console.log(g)
     // maka yang muncul akan ada 2 nilai, global dan localnya
+
+    // LExical Scope
+    function lamarkerja() {
+        const jabatan = 'Programmer';
+
+        function orangDalam() {
+            let kenalan = `Orang dalam bisa menetukan ${jabatan}`;
+            console.log(kenalan)
+        }
+        orangDalam();
+    }
