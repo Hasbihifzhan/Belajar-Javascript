@@ -38,4 +38,31 @@
 
     // rest parameter
 
+    // const orang = ['alex', 'bimo', 'cici', 'delila', 'felix'];
+    // const [gold, silver, bronze, ...peserta] = orang;
 
+    // Destructing Object
+
+    // const user = {
+    // name: 'John',
+    // email: 'johndoe@m.com',
+    // };
+
+    // const{name: nama, email, phone = '0829346'} = user;
+    // console.log(nama)
+    // console.log(user)
+    // console.log(phone)
+
+    // Destructing object dalam function
+
+      const user = {
+    nama: 'John',
+    email: 'johndoe@m.com',
+    role: 'Admin',
+    };
+
+    const userAndRole = ({ nama, role}) => {
+        return `${nama} ${role}`
+    }
+
+    console.log(userAndRole(user))

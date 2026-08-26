@@ -95,3 +95,15 @@ function tambah8() {
 }
 var coba4 = tambah8(1,2,3);
 console.log(coba4);
+
+// DEFAULT VALUE PARAMETER
+// nilai yang digunakan saat fungsi dipaggil tapi tidak diberi nilai argument yang diperlukan
+
+function lemparDadu(sisi = 6) { //ini adalah default value parameter
+    return Math.floor(Math.random() * sisi) + 1;
+}
+console.log(lemparDadu)
+
+function sapa(name = 'hasbi', msg = 'selamat pagi') { //ini adalah default value parameter
+    console.log(`${name} ${msg}`);
+}
